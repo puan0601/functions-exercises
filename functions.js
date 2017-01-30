@@ -69,3 +69,21 @@ function longestWord(str) {
     }
     return longest;
 }
+
+//10
+function printTriangle(length) {
+    for (var i  = 1; i <= length; i++) {
+        console.log("*".repeat(i));
+    }
+}
+
+//11
+
+
+//12
+function printTriangle(length) {
+    while (length > 0) {
+        console.log(" ".repeat(length) + "*");
+        length--;
+    }
+}
